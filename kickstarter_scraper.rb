@@ -7,4 +7,5 @@ def create_project_hash
   kickstarter = Nokogiri::HTML(html)
   binding.pry
   #projects:kickstarter.css("li.projects.grid_4")
+  #project.css("h2.bbcard_namestrong a").text
 end
